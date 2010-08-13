@@ -103,6 +103,10 @@
     <div class='chessboard-wrapper'>
       <link rel='stylesheet' href='themes/default.css'></link>
       <div class='chessboard'>
+        <xsl:attribute name="class">
+          chessboard
+          perspective-<xsl:value-of select="@perspective" />
+        </xsl:attribute>
         <xsl:call-template name="list-content">
           <xsl:with-param name="content" select="/chessboard/fen" />  
         </xsl:call-template>
