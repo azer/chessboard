@@ -100,20 +100,9 @@
   </xsl:template>
 
   <xsl:template match='/chessboard'>
-    <div class='chessboard'>
+    <div class='chessboard-wrapper'>
       <link rel='stylesheet' href='themes/default.css'></link>
-      <div>
-        <xsl:attribute name="class">
-          chessboard
-          <xsl:choose>
-            <xsl:when test='perspective="w"'>
-              perspective-white
-            </xsl:when>
-            <xsl:otherwise>
-              perspective-black
-            </xsl:otherwise>
-          </xsl:choose>
-        </xsl:attribute>
+      <div class='chessboard'>
         <xsl:call-template name="list-content">
           <xsl:with-param name="content" select="/chessboard/fen" />  
         </xsl:call-template>
