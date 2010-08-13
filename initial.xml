@@ -1,6 +1,5 @@
 <?xml-stylesheet type="text/xsl" href="template.xsl"?>
 <chessboard>
-  <perspective>w</perspective>
   <fen>rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1</fen>
   <set>
     <name>Default</name>
