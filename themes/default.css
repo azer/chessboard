@@ -1,0 +1,27 @@
+.chessboard { width:800px; height:800px; background:#ccc; }
+.chessboard .square { width:12.5%; height:12.5%; float:left; } 
+.chessboard .square .piece { width:100%; height:100%; }
+
+.chessboard .square:nth-child(16n+1), 
+.chessboard .square:nth-child(16n+10), 
+.chessboard .square:nth-child(16n+3), 
+.chessboard .square:nth-child(16n+12), 
+.chessboard .square:nth-child(16n+5),
+.chessboard .square:nth-child(16n+14),
+.chessboard .square:nth-child(16n+7),
+.chessboard .square:nth-child(16n+16)
+{
+  background:rgb(255,206,158); 
+}
+
+.chessboard .square:nth-child(16n+2), 
+.chessboard .square:nth-child(16n+9), 
+.chessboard .square:nth-child(16n+4), 
+.chessboard .square:nth-child(16n+11), 
+.chessboard .square:nth-child(16n+6),
+.chessboard .square:nth-child(16n+13),
+.chessboard .square:nth-child(16n+8),
+.chessboard .square:nth-child(16n+15)
+{
+  background:rgb(209,139,71); 
+}
