@@ -1,6 +1,4 @@
 .chessboard { width:800px; height:800px; background:#ccc; }
-.chessboard.perspective-w { -webkit-transform:rotate(180deg); -moz-transform:rotate(180deg); -o-transform:rotate(180deg); }
-.chessboard.perspective-w .piece { -webkit-transform:rotate(180deg); -moz-transform:rotate(180deg); -o-transform:rotate(180deg) }
 
 .chessboard .square { width:12.5%; height:12.5%; float:left; } 
 .chessboard .square .piece { width:100%; height:100%; }
