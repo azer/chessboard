@@ -1,4 +1,5 @@
 .chessboard { width:800px; height:800px; background:#ccc; }
+
 .chessboard .square { width:12.5%; height:12.5%; float:left; } 
 .chessboard .square .piece { width:100%; height:100%; }
 

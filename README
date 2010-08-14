@@ -1,1 +1,2 @@
-Pure HTML&XSLT chess board viewing the context formatted in Forsyth–Edwards Notation.
+Pure HTML&XSLT chess board getting its content in Forsyth–Edwards Notation.
+Working Example: http://azer.github.com/chessboard/initial.xml
